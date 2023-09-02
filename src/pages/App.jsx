@@ -2,11 +2,11 @@ import Router from "./Router";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <section>
+      <header>
         <Router />
       </header>
-    </div>
+    </section>
   );
 }
 
