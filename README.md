@@ -2,13 +2,6 @@
 
 # Website Movie List
 
-## Screenshoot
-
-![ssLogin](https://github.com/abdipriyangga/movies-web/assets/60294028/13016cfd-8587-4749-8bf0-0e66fa4ab579)
-![ssRegister](https://github.com/abdipriyangga/movies-web/assets/60294028/2759354e-1278-4758-973f-579804189170)
-![ssHomepage](https://github.com/abdipriyangga/movies-web/assets/60294028/02ff379d-0789-4c30-8247-2a2af20c3d89)
-![ssMovieDetail](https://github.com/abdipriyangga/movies-web/assets/60294028/63e0c70c-90fd-453d-86e7-dd97c0ca8eaf)
-
 ## About
 
 A web-based application that provides a show movie list.
