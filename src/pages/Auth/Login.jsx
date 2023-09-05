@@ -82,21 +82,6 @@ const Login = (props) => {
                                     />
                                 )
                             }
-                            // return (
-
-                            //     <Input
-                            //         key={field.id}
-                            //         handleChange={handleChange}
-                            //         value={loginState[field.id]}
-                            //         labelText={field.labelText}
-                            //         labelFor={field.labelFor}
-                            //         id={field.id}
-                            //         name={field.name}
-                            //         type={field.type}
-                            //         isRequired={field.isRequired}
-                            //         placeholder={field.placeHolder}
-                            //     />
-                            // )
                         })}
                     </section>
                     <p className="text-center text-sm text-gray-600 mt-5">
