@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Website Movie List
 
-In the project directory, you can run:
+## Screenshoot
 
-### `npm start`
+![ssLogin](https://github.com/abdipriyangga/movies-web/assets/60294028/13016cfd-8587-4749-8bf0-0e66fa4ab579)
+![ssRegister](https://github.com/abdipriyangga/movies-web/assets/60294028/2759354e-1278-4758-973f-579804189170)
+![ssHomepage](https://github.com/abdipriyangga/movies-web/assets/60294028/02ff379d-0789-4c30-8247-2a2af20c3d89)
+![ssMovieDetail](https://github.com/abdipriyangga/movies-web/assets/60294028/63e0c70c-90fd-453d-86e7-dd97c0ca8eaf)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A web-based application that provides a show movie list.
 
-### `npm test`
+Website Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Register
+- Login
+- Homepage
+- Movie detail
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![React v18.2.0](https://img.shields.io/badge/React%20-v17.0.2-brightgreen.svg?style=flat)](https://github.com/facebook/react)
+[![Tailwind v3.3.3](https://img.shields.io/badge/Tailwind%20-v2.1.4-blue.svg?style=flat)](https://tailwindcss.com/docs/installation)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. [Node Js](https://nodejs.org/en/)
+2. Node_modules npm install or yarn install
+3. Backend API Coffee Shop [here](https://github.com/abdipriyangga/Ceritakopi-Backend.git)
+4. Env file can be seen in file `.env.example`
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Download this Project or you can type `https://github.com/abdipriyangga/movies-web.git`
+2. Open the app's directory in CMD or Terminal
+3. Type npm install or yarn install
+4. Add the .env file to the root folder project
+5. yarn start or npm run start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Axios](https://axios-http.com/docs/api_intro)
+- [Redux](https://redux.js.org/)
+- [React Redux](https://react-redux.js.org/)
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© [Muhammad Abdi Priyangga](https://github.com/abdipriyangga)
