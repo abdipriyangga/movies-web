@@ -28,8 +28,8 @@ Website Features:
 ## Requirements
 
 1. [Node Js](https://nodejs.org/en/)
-2. Node_modules npm install or yarn install
-3. Backend API Coffee Shop [here](https://github.com/abdipriyangga/Ceritakopi-Backend.git)
+2. Install node_modules you can type npm install or yarn install
+3. Backend API [here](https://github.com/abdipriyangga/movie-backend.git)
 4. Env file can be seen in file `.env.example`
 
 ## Getting Started
