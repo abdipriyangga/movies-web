@@ -18,7 +18,6 @@ const Register = (props) => {
     const [confirmPassword, setConfirmPassword] = useState("");
 
     const [registerState, setRegisterState] = useState(fieldState);
-    const handleChange = (e) => setRegisterState({ ...registerState, [e.target.id]: e.target.value });
 
     const handleChangeUsername = (e) => {
         setRegisterState({ ...registerState, [e.target.id]: e.target.value })
@@ -37,13 +36,11 @@ const Register = (props) => {
         setConfirmPassword(e.target.value)
     }
     let { isRegister } = props.auth;
-    console.log('regis', props.auth)
     const handleSubmit = (e) => {
         e.preventDefault();
         props.authRegister(username, fullname, password, confirmPassword);
         if (!isRegister) {
             navigate('/');
-            console.log("is register", isRegister);
         }
     }
     useEffect(() => {
