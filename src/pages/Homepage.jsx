@@ -12,9 +12,9 @@ const Homepage = (props) => {
         <main className='bg-sky-950 w-full h-full p-5'>
             <h1 className='text-white font-bold text-center text-3xl'>MOVIES LIST</h1>
             <section className='w-full h-full p-4 items-center justify-center flex flex-wrap gap-20'>
-                {data.map((movie) => {
+                {data.map((movie, idx) => {
                     return (
-                        <Link to={`/movie/${movie.id}/detail`}>
+                        <Link key={idx} to={`/movie/${movie.id}/detail`}>
                             <section className='bg-slate-100 w-96 h-4/5 p-2 mt-10 rounded'>
                                 <h2 className='font-bold text-center mb-3 text-xl'>{movie.original_title}</h2>
                                 <img alt='movie-image' src={`${URL_IMAGE}${movie.poster_path}`} />

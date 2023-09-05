@@ -19,16 +19,6 @@ const MovieDetail = (props) => {
                     <p className='font-semibold mt-2 text-left'>{detail.overview}</p>
                     <p className='font-semibold italic mt-4 text-left'>Release Date: {detail.release_date}</p>
                     <p className='font-semibold text-left mb-5'>Rating: {detail.vote_average}</p>
-                    <p className='font-semibold text-left mb-5'>Genres: <span className=''>
-                        {detail.genres.map((genre) => {
-                            return genre.name
-                        }).join(', ')}
-                    </span></p>
-                    <p className='font-semibold text-left mb-5'>Production Countries: <span className=''>
-                        {detail.production_countries.map((pc) => {
-                            return pc.name
-                        }).join(', ')}
-                    </span></p>
                     <p className='font-semibold text-left mb-5'>Budget: USD {detail.budget}</p>
                 </article>
             </section>
